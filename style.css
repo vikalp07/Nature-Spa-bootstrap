@@ -1,0 +1,279 @@
+
+* h1, h2, h3, h4, h5, h6{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+body p{
+color: #8d8d8d;
+}
+
+.nav-button{
+    background: #15B9D9;
+    border-radius: 50px;
+}
+
+.nav-hover a:hover{
+  color: #15B9D9;
+  
+}
+
+.active{
+  color: #15B9D9 !important;
+
+}
+
+.top-head i{
+    margin: 13px 8px;
+    color: #15B9D9;
+}
+
+.top-head a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.head-margin i{
+    font-size: 20px;
+    padding: 5px;
+    color: black;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background: white;
+    margin: 7px 8px;
+    
+}
+.custom-banner img{
+    object-fit: cover;
+}
+.banner-image{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.margin-space{
+    margin-bottom: 60px;
+}
+
+
+.margin-space a{
+    text-decoration: none;
+    padding-left: 5px;
+    color: white;
+    
+}
+
+.margin-space span{
+    padding-left: 5px;
+}
+
+.margin-space a:hover{
+    color: #15B9D9;
+}
+
+.image-container {
+    position: relative;
+  }
+  
+  .vertical-text span {
+    letter-spacing: 4px;
+    position: absolute;
+    left: -2rem;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    color: #15B9D9;
+  
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: -6%;
+    left: -6%;
+    border-radius: 50%;
+    border: 7px solid white;
+  }
+
+  .about-button{
+    border: 2px solid transparent;
+    border-radius: 50px;
+    color: white;
+    background: #15B9D9;
+  }
+
+ 
+
+ .about-text p{
+    color: rgb(242, 153, 120);
+    
+ }
+
+  .about-text i{
+    color: #15B9D9;
+    font-size: 25px;
+  }
+
+  .hr-container {
+    margin: 0 auto;
+  }
+
+  .hr-container h4{
+    color: #15B9D9;
+    
+  }
+
+  .hr-container-2 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .hr-line,
+  .hr-line-wide,
+  .hr-line-1 {
+    height: 3px;
+    background-color: #15d6fd;
+    margin: 4px;
+  }
+  .hr-line, .hr-line-1 {
+    width: 30px;
+  }
+  
+  .hr-line-1 {
+    margin-left: 38px;
+  }
+  
+  
+  .hr-line-wide {
+    width: 65px;
+  }
+  .hr-line-wide{
+    width: 65px;
+  }
+  
+  .hr-container-2 h1 {
+    margin-right: 14px;
+    font-size: 24px;
+    color: #15B9D9;
+  }
+  
+  .heading-h1 {
+    text-align: center;
+  }
+  
+
+  .meet-team{
+    max-width: 900px;
+    
+  }
+
+  
+
+.team-size h5{
+    color: rgb(209, 110, 74);
+    /* font-weight: 300; */
+    
+}
+.team-size p{
+    color: #15B9D9;
+    
+}
+
+.choose-icon{
+    background: rgb(0 0 0 / 4%);
+    /* text-align: center; */
+}
+
+.choose-icon i{
+    color: #15B9D9 !important;
+    background-color: #fff;
+    font-size: 50px;
+}
+
+/* .Choose-width{
+    width: 21%;
+    } */
+
+
+.meet-button{
+    border: 2px solid transparent;
+    border-radius: 50px;
+    color: white;
+    background: #15B9D9;
+}
+
+.footer-custom{
+  color: rgb(255, 255, 255);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/Assests/slider-banner-2.jpg);
+    
+}
+
+.footer-icons li a{
+    text-decoration: none;
+    color: #858282;
+}
+
+.footer-contact p{
+    color: #858282;
+}
+
+.footer-p{
+    color: #858282
+}
+
+.footer-icon i{
+    padding-left: 10px;
+    font-size: 20px;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    /* background-color: #15B9D9; */
+}
+
+.footer-bottem{
+    color: #15B9D9;
+    
+}
+.bootem-footer{
+    color: white;
+    /* padding-left: 7px; */
+}
+
+.back-to-top{
+  text-decoration: none;
+}
+
+.back-to-top {
+  color: #fff;
+  background-color: #15B9D9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+}
+
+/* Media Queries */
+
+@media (max-width: 460px) {
+  .vertical-text span{
+    font-size: 13px;
+    letter-spacing: 2px;
+    left: -1rem;
+    padding-bottom: 5px;
+    
+  }
+}
